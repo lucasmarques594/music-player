@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="icon" type="image/png" href="./assets/images/favicon.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>deathscythe - playlist</title>
+</head>
+<body>
+  <div class="container">
+  <div class="wrapper">
+    <div class="top-bar">
+      <i class="material-icons">expand_more</i>
+      <span>Tocando agora</span>
+      <i class="material-icons">more_horiz</i>
+    </div>
+    <div class="img-area">
+      <img src="" alt="">
+    </div>
+    <div class="song-details">
+      <p class="name"></p>
+      <p class="artist"></p>
+    </div>
+    <div class="progress-area">
+      <div class="progress-bar">
+
+      </div>
+      <div class="timer">
+        <span class="current">0:00</span>
+        <span class="duration"></span>
+      </div>
+      <audio id="main-audio" src=""></audio>
+    </div>
+    <div class="controls">
+      <i id="repeat-plist" class="material-icons" title="Lista de reprodução em loop">repeat</i>
+      <i id="prev" class="material-icons">skip_previous</i>
+      <div class="play-pause">
+        <i class="material-icons">play_arrow</i>
+
+      </div>
+      <i id="next" class="material-icons">skip_next</i>
+      <i id="more-music" class="material-icons">queue_music</i>
+    </div>
+    <div class="music-list">
+      <div class="header">
+        <div class="row">
+          <i class="material-icons">queue_music</i>
+          <span>Lista de músicas</span>
+        </div>
+        <i id="close" class="material-icons">close</i>
+      </div>
+      <ul>
+        
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+  <script src="./assets/scripts/music-list.js"></script>
+  <script src="./assets/scripts/scripts.js"></script>
+</body>
+</html>
